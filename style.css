@@ -1,0 +1,146 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+.link-header {
+    margin: 47px 0 197px 42px;
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+    filter: drop-shadow(3px 3px 3px rgba(4, 18, 140, 0.604));
+    border-bottom: 3px solid transparent;
+    margin-left: 80px;
+    position: relative;
+    top: 11px;
+}
+
+
+.link-header:hover {
+    border-bottom-color: #183080;
+    position: relative;
+    bottom: 5px;
+}
+
+
+button {
+    Width: 124px;
+    Height: 51px;
+    background: #6FBF44;
+    border: 5px solid #354970;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 32px;
+    filter: drop-shadow(3px 3px 3px rgba(4, 18, 140, 0.604));
+    position: relative;
+    top: 9px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    position: relative;
+    transform: scale(1.2);
+
+}
+
+.image-logo {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    
+    display: inline-block;
+    filter: drop-shadow(10px 15px 5px rgba(4, 18, 140, 0.604));
+    transition: transform 0.2s ease-out;
+}
+.image-logo:hover {
+    transform: scale(1.1);
+}
+
+
+section {
+    margin-left: 780px;
+    position: relative;
+    bottom: 450px;
+    display: inline-block;
+    box-shadow: inset 10px 10px 10px rgba(4, 18, 140, 0.604), 10px 10px 10px rgba(4, 18, 140, 0.604);
+    position: relative;
+    left: 50px;
+    margin-right: 200px;
+}
+
+h1 {
+    Width: 582px;
+    Height: 164px;
+    letter-spacing: 0.596154px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    display: inline-block;
+    padding: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.link-section {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    padding: 20px;
+    position: relative;
+    bottom: 30px;
+    filter: drop-shadow(1px 1px 3px rgba(4, 142, 70, 0.604));
+
+}
+
+.link-section:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 72, 25);
+    position: relative;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 1340px) {
+     section {
+        position: relative;
+        bottom: 0px;
+        right: 0;
+        margin-left: 100px;
+        top: 70px;
+     }
+
+     @media screen and (max-width: 790px) {
+        header {
+            position: fixed;
+            padding: 30px;
+            margin-right: 35px;
+        }
+        section {
+            position: relative;
+            top: 150px;
+           
+            
+        }
+
+        img {
+            position: relative;
+            top: 100px;
+            margin: 0 auto 0 auto; 
+        }
+     }
+}
