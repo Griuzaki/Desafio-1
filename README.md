@@ -5,8 +5,8 @@
 <h2  align="center">Esse foi uns dos projetos que aprendi no <a href="https://rodolfomori.com.br/devclub">DevClub</a></h2>
 
 <section>
-<img   width="700px" src="https://github.com/Griuzaki/Wide-coverage/blob/main/img/desktop.jpg?raw=true" alt="logo-desktop">
-<img  height="300px" src="https://github.com/Griuzaki/Wide-coverage/blob/main/img/mobile.jpg?raw=true" alt="logo-mobile">
+<img src="https://github.com/Griuzaki/Wide-coverage/blob/main/img/desktop.jpg?raw=true" alt="logo-desktop" width="700px"/>
+<img src="https://github.com/Griuzaki/Wide-coverage/blob/main/img/mobile.jpg?raw=true" alt="logo-mobile" height="300px"/>
 </section>
 
 <h3 align="center" >Projeto Responsivo - Tecnologia Utilizadas ...</h3> 
